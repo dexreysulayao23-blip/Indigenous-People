@@ -1,0 +1,27 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Hide sensitive files
+<Files "connection.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "userInfo.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "test_connection.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Prevent access to SQL files
+<Files "*.sql">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Directory index
+DirectoryIndex index.php index.html
