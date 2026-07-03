@@ -67,7 +67,7 @@ Ang **IPs System V10** usa ka comprehensive web-based management system para sa 
    - Edit `connection.php` if needed (default: root, no password)
 
 4. **Access System**
-   - Main page: `http://localhost/IPs_SystemV10/`
+   - Main page: `http://localhost/IPs_System/`
    - Login: `http://localhost/IPs_SystemV10/login.php`
 
 ## Directory Structure
@@ -118,10 +118,9 @@ IPs_SystemV10/
 1. **Resident Management** - Complete CRUD operations for residents
 2. **Official Management** - IPs official information and status
 3. **Certificate System** - Request, approval, and generation
-4. **Payment Tracking** - GCash transaction management
-5. **Messaging System** - Direct communication between admin and residents
-6. **Registration System** - Online registration with approval workflow
-7. **Reporting** - Activity logs, income reports, statistics
+4. **Messaging System** - Direct communication between admin and residents
+5. **Registration System** - Online registration with approval workflow
+6. **Reporting** - Activity logs, income reports, statistics
 
 ## Documentation
 
@@ -131,7 +130,7 @@ IPs_SystemV10/
 
 ## Support
 
-Para sa technical support o questions, contact ang system administrator.
+For technical support o questions, Contact ang system Administrator.
 
 ## Version
 
@@ -141,5 +140,5 @@ Para sa technical support o questions, contact ang system administrator.
 
 ---
 
-**Note:** Make sure ang MySQL service naka-start sa XAMPP before accessing the system.
+Note: Make sure MySQL service is running on XAMPP before accessing the system.
 
