@@ -142,6 +142,8 @@ For technical support o questions, Contact ang system Administrator.
 
 Note: Make sure MySQL service is running on XAMPP before accessing the system.
 
+---
+
 ![image alt](https://github.com/dexreysulayao23-blip/Indigenous-People/blob/9f0db3271477eeb8956348ade963dd54d9e3d032/1.png)
 ![image alt](https://github.com/dexreysulayao23-blip/Indigenous-People/blob/e290ba5584ee7392a080127aa40a1e04aa4dbd39/2.png)
 ![image alt](https://github.com/dexreysulayao23-blip/Indigenous-People/blob/e290ba5584ee7392a080127aa40a1e04aa4dbd39/3.png)
