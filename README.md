@@ -2,12 +2,11 @@
 
 ## System Overview
 
-Ang **IPs System V10** usa ka comprehensive web-based management system para sa Indigenous Peoples (IPs) communities. Kini nag-provide og complete solution para sa:
+**IPs System V10** one of the comprehensive web-based management system for Indigenous Peoples (IPs) communities. provide complete solution for:
 
 - **Resident Registration & Management**
 - **Certificate Request & Processing**
 - **Official Management**
-- **GCash Payment Tracking**
 - **Direct Messaging System**
 - **Activity Logging & Reporting**
 
@@ -25,18 +24,10 @@ Ang **IPs System V10** usa ka comprehensive web-based management system para sa 
 - Complete resident management
 - Certificate request approval/rejection system
 - Official management (add, edit, archive)
-- GCash transaction tracking and management
 - Registration request approval system
 - System settings and configuration
 - Activity logs and reporting
 - Income reports and statistics
-
-### 💳 **Payment System**
-- GCash payment integration
-- Automatic transaction tracking
-- Payment status management
-- Reference number validation
-- Transaction history
 
 ### 📋 **Certificate Management**
 - Multiple certificate types support
@@ -67,8 +58,8 @@ Ang **IPs System V10** usa ka comprehensive web-based management system para sa 
    - Edit `connection.php` if needed (default: root, no password)
 
 4. **Access System**
-   - Main page: `http://localhost/IPs_System/`
-   - Login: `http://localhost/IPs_SystemV10/login.php`
+   - Main page: `http://localhost/IPs_System/
+   - Login: `http://localhost/IPs_System/login.php
 
 ## Directory Structure
 
@@ -134,9 +125,8 @@ For technical support o questions, Contact ang system Administrator.
 
 ## Version
 
-**Version:** 10.0  
+**Version:** 1  
 **Last Updated:** 2025  
-**Database Version:** 2.2
 
 ---
 
