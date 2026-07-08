@@ -43,7 +43,7 @@ cd C:\xampp
 
 1. Copy ang **IPs_System** folder sa:
    ```
-   C:\xampp\htdocs\IPs_SystemV10
+   C:\xampp\htdocs\IPs_System
    ```
 
 2. Make sure ang folder structure complete:
