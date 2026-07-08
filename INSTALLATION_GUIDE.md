@@ -41,7 +41,7 @@ cd C:\xampp
 
 ## Step 3: Copy Project Files
 
-1. Copy ang **IPs_SystemV10** folder sa:
+1. Copy ang **IPs_System** folder sa:
    ```
    C:\xampp\htdocs\IPs_SystemV10
    ```
