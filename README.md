@@ -1,8 +1,8 @@
-# IPs System V1 - Indigenous Peoples Management System
+# IPs_System- Indigenous Peoples Management System
 
 ## System Overview
 
-**IPs System V10** one of the comprehensive web-based management system for Indigenous Peoples (IPs) communities. provide complete solution for:
+**IPs System** one of the comprehensive web-based management system for Indigenous Peoples (IPs) communities. provide complete solution for:
 
 - **Resident Registration & Management**
 - **Certificate Request & Processing**
@@ -52,7 +52,7 @@
 2. **Database Setup**
    - Open phpMyAdmin: `http://localhost/phpmyadmin`
    - Create database: `ipsdb`
-   - Import `IPs_SystemV10.sql` file
+   - Import `IPs_System.sql` file
 
 3. **Configure Connection**
    - Edit `connection.php` if needed (default: root, no password)
@@ -64,7 +64,7 @@
 ## Directory Structure
 
 ```
-IPs_SystemV10/
+IPs_System/
 ├── admin/              # Admin portal files
 ├── resident/          # Resident portal files
 ├── assets/             # CSS, JS, images, plugins
