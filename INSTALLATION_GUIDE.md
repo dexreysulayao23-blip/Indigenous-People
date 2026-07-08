@@ -1,4 +1,4 @@
-# IPs System V10 - Installation Guide
+# IPs_System - Installation Guide
 
 ## Complete Setup Instructions
 
