@@ -48,20 +48,20 @@ cd C:\xampp
 
 2. Make sure ang folder structure complete:
    ```
-   C:\xampp\htdocs\IPs_SystemV10\
+   C:\xampp\htdocs\IPs_System\
    ├── admin/
    ├── resident/
    ├── assets/
    ├── connection.php
    ├── index.php
-   └── IPs_SystemV10.sql
+   └── IPs_System.sql
    ```
 
 ---
 
 ## Step 4: Database Setup
 
-### Method 1: Gamit ang phpMyAdmin (Recommended)
+### Method 1: Used the phpMyAdmin (Recommended)
 
 1. Open browser: `http://localhost/phpmyadmin`
 
@@ -75,24 +75,24 @@ cd C:\xampp
    - I-select ang `ipsdb` database
    - I-click ang **Import** tab
    - I-click **Choose File**
-   - Pilia ang `IPs_SystemV10.sql` gikan sa project folder
+   - Choose the `IPs_System.sql` from the project folder
    - I-click **Go**
-   - Wait until ma-complete ang import
+   - Wait until the import is completed 
 
-### Method 2: Gamit ang Command Line
+### Method 2: Used the Command Line
 
 ```powershell
 # Open Command Prompt
 cd C:\xampp\mysql\bin
-mysql -u root -p < "C:\xampp\htdocs\IPs_SystemV10\IPs_SystemV10.sql"
-# Press Enter (walay password by default)
+mysql -u root -p < "C:\xampp\htdocs\IPs_System\IPs_System.sql"
+# Press Enter (no password by default)
 ```
 
 ---
 
 ## Step 5: Configure Database Connection
 
-1. Open: `C:\xampp\htdocs\IPs_SystemV10\connection.php`
+1. Open: `C:\xampp\htdocs\IPs_System\connection.php`
 
 2. Check ang database credentials:
    ```php
@@ -102,8 +102,8 @@ mysql -u root -p < "C:\xampp\htdocs\IPs_SystemV10\IPs_SystemV10.sql"
    define("DB_HOST", 'localhost');   // Default: localhost
    ```
 
-3. **If naa kay custom MySQL password:**
-   - I-update ang `DB_PASSWORD` value
+3. **If their is a custom MySQL password:**
+   - Update the `DB_PASSWORD` value
 
 ---
 
@@ -111,28 +111,27 @@ mysql -u root -p < "C:\xampp\htdocs\IPs_SystemV10\IPs_SystemV10.sql"
 
 ### Check Database Connection
 
-1. Open: `http://localhost/IPs_SystemV10/`
-2. Dapat makita ang landing page
-3. If naa error, check ang MySQL service
+1. Open: `http://localhost/IPs_System/`
+2. To show the landing page
+3. If their is some error, check the MySQL service
 
 ### Check Database Tables
 
 1. Open: `http://localhost/phpmyadmin`
-2. I-select ang `ipsdb` database
-3. Dapat makita ang mga tables:
+2. Select the `ipsdb` database
+3. Make sure that the tables is shown:
    - `users`
    - `residence_information`
    - `certificate_types`
    - `certificate_request`
-   - `gcash_transactions`
    - `messages`
-   - ug uban pa
+   - etc
 
 ---
 
 ## Step 7: Create Admin Account
 
-### Option A: Gamit ang Database Directly
+### Option A: Used Database Directly
 
 1. Open phpMyAdmin: `http://localhost/phpmyadmin`
 2. I-select ang `ipsdb` database
@@ -148,7 +147,7 @@ mysql -u root -p < "C:\xampp\htdocs\IPs_SystemV10\IPs_SystemV10.sql"
    - `is_active`: 1
 6. I-click **Go**
 
-### Option B: Gamit ang SQL Query
+### Option B: Used the SQL Query
 
 ```sql
 INSERT INTO `users` (`id`, `username`, `password`, `user_type`, `first_name`, `last_name`, `is_active`) 
@@ -173,7 +172,7 @@ VALUES ('1506135735699', 'admin123', 'yourpassword', 'admin', 'Admin', 'User', 1
 ### Issue 1: MySQL Server Has Gone Away
 
 **Solution:**
-- Check kung naka-start ang MySQL sa XAMPP Control Panel
+- Check if MySQL is running on XAMPP Control Panel
 - Restart ang MySQL service
 - Check ang MySQL port (default: 3306)
 
@@ -203,15 +202,15 @@ VALUES ('1506135735699', 'admin123', 'yourpassword', 'admin', 'Admin', 'User', 1
 ### Issue 5: Port 3306 Already in Use
 
 **Solution:**
-- I-close ang ubang applications nga naggamit sa port 3306
+- I-close all applications that used port 3306
 - Or i-change ang MySQL port sa XAMPP config
 - Restart ang MySQL service
 
 ### Issue 6: Permission Denied Errors
 
 **Solution:**
-- Make sure ang `uploads/` folder naa ang write permissions
-- Check ang `certificates/` folder permissions
+- Make sure the `uploads/` folder write the permissions
+- Check the `certificates/` folder permissions
 - Run XAMPP as Administrator if needed
 
 ---
@@ -228,7 +227,7 @@ VALUES ('1506135735699', 'admin123', 'yourpassword', 'admin', 'Admin', 'User', 1
 
 ### Required Writable Folders:
 - `uploads/certificate_files/`
-- `certificates/` (if naa)
+- `certificates/`
 
 ---
 
@@ -304,7 +303,7 @@ After successful installation:
 
 ## Support
 
-If naa kay issues during installation:
+having an issues during installation:
 
 1. Check ang XAMPP error logs
 2. Check ang browser console for errors
@@ -316,5 +315,5 @@ If naa kay issues during installation:
 
 **Installation Complete!** 🎉
 
-You can now start using the IPs System V10.
+You can now start using the IPs System.
 
